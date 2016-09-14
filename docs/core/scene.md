@@ -65,12 +65,12 @@ before kicking off the render loop.
 Components can be attached to the scene as well as entities:
 
 ```html
-<a-scene canvas="canvas: #my-canvas" fog stats>
+<a-scene fog stats>
 ```
 
 A-Frame ships with a few components to configure the scene:
 
-- [canvas][canvas] - Configure which canvas to render to, or the width/height of the injected canvas.
+- [embedded][embedded] - Removes fullscreen CSS styles from A-Frame’s <canvas> element.
 - [fog][fog] - Scene fog.
 - [keyboard-shortcuts][keyboard-shortcuts] - Toggle keyboard shortcuts.
 - [stats][stats] - Toggle performance stats.
